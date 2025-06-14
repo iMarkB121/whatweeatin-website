@@ -8,27 +8,45 @@
     body {
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       text-align: center;
-      background: #fff;
-      color: #222;
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
       padding: 4rem;
     }
     h1 {
       font-size: 2rem;
+      margin-top: 1rem;
     }
     a {
-      color: #007aff;
+      color: #FFD700;
       text-decoration: none;
+    }
+    .icon {
+      width: 120px;
+      height: 120px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .content {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      border-radius: 16px;
+      display: inline-block;
+      max-width: 90%;
     }
   </style>
 </head>
 <body>
-  <h1>What We Eatin' – Support</h1>
-  <p>For help, bug reports, or questions, contact us at:</p>
-  <p><a href="mailto:whatweeatinapp@gmail.com">whatweeatinapp@gmail.com</a></p>
+  <div class="content">
+    <img src="icon.png" alt="App Icon" class="icon" />
+    <h1>What We Eatin' – Support</h1>
+    <p>For help, bug reports, or questions, contact us at:</p>
+    <p><a href="mailto:whatweeatinapp@gmail.com">whatweeatinapp@gmail.com</a></p>
 
-  <p>Quick Links:</p>
-  <p><a href="https://imarkb121.github.io/whatweeatin-website/about.html">About</a></p>
-  <p><a href="https://imarkb121.github.io/whatweeatin-website/terms.html">Terms of Service</a></p>
-  <p><a href="https://imarkb121.github.io/whatweeatin-website/privacy-policy.html">Privacy Policy</a></p>
+    <p>Quick Links:</p>
+    <p><a href="https://imarkb121.github.io/whatweeatin-website/about.html">About</a></p>
+    <p><a href="https://imarkb121.github.io/whatweeatin-website/terms.html">Terms of Service</a></p>
+    <p><a href="https://imarkb121.github.io/whatweeatin-website/privacy-policy.html">Privacy Policy</a></p>
+  </div>
 </body>
 </html>
